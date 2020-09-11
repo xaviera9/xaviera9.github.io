@@ -29,12 +29,15 @@
 			main section.bubs {
 				width: 92.8vw; /* viewport width*/;
 				display: flex;
+				float: left;
+			}
+
+			main section.bnubs {
 				justify-content: center;
 				align-items: center;
 				align-items: unset;
 				margin-left: 43px;
-				margin-right: 60px;
-				float: left;
+				margin-right: 60px;	
 			}
 
 			main section.boss{
