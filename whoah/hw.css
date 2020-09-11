@@ -3,6 +3,7 @@
 				padding: 0;
 			}
 			main section.boyfie {
+				width: 92.8vw;/* viewport width*/;
 				display: flex;
 				justify-content: center;
 				align-items: center;
