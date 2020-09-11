@@ -70,7 +70,7 @@
 				}
 
 			.jaemin {
-				width: 100vw; /*viewport width*/;
+				width: 100vw; /*viewport width */
 				height: 100px;
 				background-color: aquamarine;
 				display: flex;
