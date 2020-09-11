@@ -27,17 +27,11 @@
 			}
 
 			main section.bubs {
-				width: 92.8vw; /* viewport width*/
 				display: flex;
-				float: left;
-			}
-
-			main section.bubs {
-				justify-content: space-around;
-				align-items: center;
+				justify-content: center;
 				align-items: unset;
 				margin-left: 43px;
-				margin-right: 60px;	
+				margin-right: 53px;
 			}
 
 			main section.boss{
@@ -69,7 +63,7 @@
 
 			.chenle {
 				height: 150px;
-				width: 18vw; /* viewport width*/;
+				width: 17.8vw; /* viewport width*/;
 				background-color: deepskyblue;
 				float: left;
 				display: flex;
@@ -87,7 +81,7 @@
 			}
 
 			.hyunjin {
-				width: 18vw; /* viewport width*/;
+				width: 17.8vw; /* viewport width*/;
 				height: 120px;
 				background-color: lavender;
 				margin-top: 10px;
@@ -97,7 +91,7 @@
 			}
 
 			.dejun {
-				width: 18vw; /* viewport width*/;
+				width: 17.8vw; /* viewport width*/;
 				height: 70px;
 				background-color: plum;
 				margin-top: 10px;
