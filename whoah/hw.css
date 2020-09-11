@@ -34,6 +34,12 @@
 				align-items: center;
 			}
 
+			.jaemin {
+				width: 100vw; /*viewport width*/
+				height: 100px;
+				margin-top: 10px;
+				margin-left: 10px;
+			}
 
 			.mark {
 				background-color: lightskyblue;
