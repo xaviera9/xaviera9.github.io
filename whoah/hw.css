@@ -74,7 +74,7 @@
 				height: 100px;
 				background-color: aquamarine;
 				display: flex;
-				justify-content: center;
+				justify-content: space-around;
 				align-items: center;
 				margin-left: 43px;
 				margin-right: 53px;
