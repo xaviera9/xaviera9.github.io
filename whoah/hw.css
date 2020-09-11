@@ -3,6 +3,15 @@
 				padding: 0;
 			}
 
+			main section.boyfriend {
+				display: flex;
+				justify content: center;
+				align-items: center;
+				margin-left: 43px;
+				margin-right: 53px;
+			}
+
+
 			main section.luv {
 				display: flex;
 				justify-content: center;
