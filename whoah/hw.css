@@ -27,13 +27,12 @@
 			}
 
 			main section.bubs {
-				width: 92.8vw;/* viewport width*/;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				align-items: unset;
 				margin-left: 43px;
-				margin-right: 60px;
+				margin-right: 53px;
 				float: left;
 			}
 
