@@ -27,6 +27,7 @@
 			}
 
 			main section.bubs {
+				width: 92.8vw;/* viewport width*/;
 				display: flex;
 				justify-content: center;
 				align-items: center;
