@@ -2,15 +2,13 @@
 				margin: 0;
 				padding: 0;
 			}
-
-			main section.boyfriend {
+			main section.boyfie {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				margin-left: 43px;
+				margin-left: 53px;
 				margin-right: 53px;
 			}
-
 
 			main section.luv {
 				display: flex;
@@ -43,10 +41,9 @@
 				align-items: center;
 			}
 
-
 			.mark {
 				background-color: lightskyblue;
-				width: 100%;
+				width: 34vw; /* viewport width*/;
 				height: 100px;
 				margin-top: 10px;
 				margin-left: 10px;
@@ -56,7 +53,7 @@
 
 			.minhyung {
 				background-color: lightskyblue;
-				width: 100%;
+				width: 33.3vw; /* viewport width*/;
 				height: 50px;
 				margin-top: 60px;
 				margin-left: 10px;
@@ -79,10 +76,9 @@
 				}
 
 			.jaemin {
-				width: 100vw; /*viewport width */
+				width: 100vw; /* viewport width*/;
 				height: 100px;
 				background-color: aquamarine;
-				align-items: center;
 				margin-top: 10px;
 			}
 
