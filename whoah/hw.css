@@ -27,13 +27,13 @@
 			}
 
 			main section.bubs {
-				width: 92.8vw;/* viewport width*/
+				width: 92.8vw;/* viewport width*/;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				align-items: unset;
 				margin-left: 43px;
-				margin-right: 53px;
+				margin-right: 60px;
 				float: left;
 			}
 
@@ -44,7 +44,7 @@
 
 			.mark {
 				background-color: lightskyblue;
-				width: 34vw;/* viewport width*/;
+				width: 34vw; /* viewport width*/;
 				height: 100px;
 				margin-top: 10px;
 				margin-left: 10px;
@@ -54,7 +54,7 @@
 
 			.minhyung {
 				background-color: lightskyblue;
-				width: 33.3vw;/* viewport width*/;
+				width: 33.3vw; /* viewport width*/;
 				height: 50px;
 				margin-top: 60px;
 				margin-left: 10px;
@@ -66,7 +66,7 @@
 
 			.chenle {
 				height: 150px;
-				width: 20vw;/* viewport width*/;
+				width: 20vw /* viewport width*/;
 				background-color: deepskyblue;
 				float: left;
 				display: flex;
@@ -77,14 +77,14 @@
 				}
 
 			.jaemin {
-				width: 100vw;/* viewport width*/;
+				width: 100vw; /* viewport width*/;
 				height: 100px;
 				background-color: aquamarine;
 				margin-top: 10px;
 			}
 
 			.hyunjin {
-				width: 20vw;/* viewport width*/;
+				width: 20vw /* viewport width*/;
 				height: 120px;
 				background-color: lavender;
 				margin-top: 10px;
@@ -94,7 +94,7 @@
 			}
 
 			.dejun {
-				width: 20vw;/* viewport width*/;
+				width: 20vw /* viewport width*/;
 				height: 70px;
 				background-color: plum;
 				margin-top: 10px;
