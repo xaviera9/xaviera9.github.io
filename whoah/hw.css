@@ -33,7 +33,7 @@
 			}
 
 			main section.bubs {
-				justify-content: center;
+				justify-content: space-around;
 				align-items: center;
 				align-items: unset;
 				margin-left: 43px;
