@@ -1,4 +1,4 @@
-* {
+	* {
 				margin: 0;
 				padding: 0;
 			}
@@ -27,7 +27,7 @@
 			}
 
 			main section.bubs {
-				width: 92.8vw;/* viewport width*/;
+				width: 92.8vw; /* viewport width*/;
 				display: flex;
 				justify-content: center;
 				align-items: center;
@@ -66,7 +66,7 @@
 
 			.chenle {
 				height: 150px;
-				width: 25vw; /* viewport width*/;
+				width: 20vw; /* viewport width*/;
 				background-color: deepskyblue;
 				float: left;
 				display: flex;
@@ -84,7 +84,7 @@
 			}
 
 			.hyunjin {
-				width: 25vw; /* viewport width*/;
+				width: 20vw; /* viewport width*/;
 				height: 120px;
 				background-color: lavender;
 				margin-top: 10px;
@@ -94,7 +94,7 @@
 			}
 
 			.dejun {
-				width: 25vw; /* viewport width*/;
+				width: 20vw; /* viewport width*/;
 				height: 70px;
 				background-color: plum;
 				margin-top: 10px;
