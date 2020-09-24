@@ -160,3 +160,7 @@ table.table3 tbody, table.table3 td {
 	width: 50vw;
 	min-width: 330px;
 }
+
+table.table3 ul {
+	margin-left: 30px;
+}
