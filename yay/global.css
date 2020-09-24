@@ -19,22 +19,17 @@ header {
 }
 
 main section.luv {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	margin-left: 500px;
-	text-align: right;
+	position: absolute;
 	font-family: sans-serif;
-	left: 200px;
-	top: -40px;
 }
 
 .chenle {
 	font-weight: bold;
 	font-size: 25px; 
 	position: absolute;
-	top: 15px;
-	left: 50px;
+	width: 100vw;
+	top: -15px;
+	left: 750px;
 
 }
 
@@ -42,8 +37,8 @@ main section.luv {
 	font-size: 120px;
 	font-weight: bold;
 	position: absolute;
-	top: 40px;
-	left: 90px;
+	top: 10px;
+	left: 790px;
 }
 
 .mark {
@@ -55,10 +50,10 @@ main section.luv {
 	position: absolute;
 	padding: 10px;
 	padding-bottom: 15px;
-	left: 0px;
-	top: 180px;
-	min-width: 50px;
-	max-width: 00px;
+	left: 700px;
+	top: 150px;
+	min-width: 200px;
+	max-width: 200px;
 
 }
 
@@ -158,6 +153,7 @@ table.table3 th:first-child {
 	border-bottom-width: medium;
 	border-style: none none solid none;
 	margin-bottom: 40px;
+	width: 20%;
 }
 
 table.table3 tbody, table.table3 td {
