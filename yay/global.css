@@ -34,7 +34,7 @@ main section.luv {
 	font-size: 25px; 
 	position: absolute;
 	top: 15px;
-	left: 55px;
+	left: 50px;
 
 }
 
@@ -43,20 +43,22 @@ main section.luv {
 	font-weight: bold;
 	position: absolute;
 	top: 40px;
-	left: 95px;
+	left: 90px;
 }
 
 .mark {
 	background-color: lavender;
-	width: 18%; 
+	width: 17%; 
 	height: 6vh;
 	border-radius: 15px;
 	text-align: left;
 	position: absolute;
 	padding: 10px;
 	padding-bottom: 15px;
-	right: 970px;
+	left: 0px;
 	top: 180px;
+	min-width: 50px;
+	max-width: 200px;
 
 }
 
@@ -138,13 +140,12 @@ table.table2 td:third-child {
 table.table3 {
 	font-family: sans-serif;
 	position: absolute;
-	width: 500px;
+	width: 200px;
 	height: 50%;
 	top: 190px;
-	max-width: 500px;
+	max-width: 400px;
 	margin-left: 115px;
 	text-align: left;
-	display: block;
 
 }
 
