@@ -44,7 +44,7 @@ main section.luv {
 .mark {
 	background-color: lavender;
 	width: 17%; 
-	height: 6vh;
+	height: 50px;
 	border-radius: 15px;
 	text-align: left;
 	position: absolute;
@@ -153,7 +153,6 @@ table.table3 th:first-child {
 	border-bottom-width: medium;
 	border-style: none none solid none;
 	margin-bottom: 40px;
-	width: 20%;
 }
 
 table.table3 tbody, table.table3 td {
@@ -161,4 +160,3 @@ table.table3 tbody, table.table3 td {
 	width: 50vw;
 	min-width: 330px;
 }
-
