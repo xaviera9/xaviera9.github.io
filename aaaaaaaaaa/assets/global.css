@@ -116,7 +116,7 @@ header {
 }
 
 .cta:hover {
-   background-color: #6A4F21;
+   background-color: #2B2B28;
    color: white;
 }
 
@@ -915,21 +915,20 @@ height: 39.54px;
    background-repeat: no-repeat;
    background-size: cover;
    justify-self: left;
-   width: 408px;
+   width: 393px;
    height: 223px;
-   margin-top: 15px;
+   margin-top: 5em;
    grid-area: titleidx;
 }
 
 .typo2 {
-   justify-self: center;
+   justify-self: left;
    grid-area: typo2;
 }
 
 img.typo2 {
-   width: 238px;
+   width: 150px;
    height: auto;
-   margin-left: 10%;
 }
 
 .judul1{
@@ -954,6 +953,9 @@ img.typo2 {
    background-size: cover;
    width: 393px;
    height: 1050px;
+   background-repeat: no-repeat;
+   background-size: 393px auto;
+   background-position-y: 25%;
 }
 p.judul1 {
    justify-self: center;
