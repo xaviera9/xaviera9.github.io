@@ -1,0 +1,1987 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+li {
+   list-style: none;
+}
+
+nav {
+   width: 100%;
+   height: 60px;
+   background-color: #2b2b28;
+}
+
+nav ul {
+   float: left;
+}
+
+nav ul li {
+   float: left;
+   list-style: none;
+   position: relative;
+}
+
+nav ul li a {
+   display: block;
+   font-family: 'Courier New', Courier, monospace;
+   color: whitesmoke;
+   font-size: 17px;
+   padding: 22px 14px;
+   text-decoration: none;
+}
+
+nav ul li ul {
+   display: none;
+   position: absolute;
+   background-color: #2b2b28;
+   padding: 5px;
+   border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+   display: block;
+}
+
+nav ul li ul li {
+   width: 225px;
+   border-radius: 4px;
+   text-align: left;
+}
+
+nav ul li ul li a {
+   padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+   padding: 8px 14px;
+   background-color: #1D4020;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 10%;
+   background-color: #2b2b28;
+   position: fixed;
+   width: 80%;
+   height: 10px;
+   color: white;
+   z-index: 5;
+}
+
+.logo {
+   width: 149px;
+   height: 69px;
+   left: 100px;
+   top: 6px;
+}
+
+.nav__links a, .cta, .overlay__content a {
+   font-family: Helvetica;
+   font-weight: bold;
+   color: white;
+   text-decoration: none;
+}
+
+.nav__links {
+   list-style: none;
+   display: flex;
+}
+
+.nav__links li {
+   padding: 0px 20px;
+}
+
+.nav__links li a {
+   transition: color 0.3s ease 0s;
+}
+
+.cta {
+   padding: 9px 25px;
+   /* margin-right: 50px; */
+   border: none;
+   cursor: pointer;
+   transition: background-color 0.3s ease 0s;
+   color: white;
+   box-shadow: 2px 2px grey;
+   /* width: 10px; */
+}
+
+.cta:hover {
+   background-color: #6A4F21;
+   color: white;
+}
+
+.ham {
+   width: 50px;
+   height: auto;
+}
+
+/* Mobile Nav */
+
+.menu {
+   display: none;
+}
+
+.overlay {
+   height: 50%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   background-color: #2b2b28;
+   overflow-x: hidden;
+   transition: 0.5s ease 0s;
+   z-index: 5;
+}
+
+.overlay--active {
+   width: 100%;
+}
+
+.overlay__content {
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.overlay a {
+   padding: 15px;
+   font-size: 20px;
+   display: block;
+   transition: color 0.3s ease 0s;
+}
+
+.overlay a:hover, .overlay a:focus {
+   color: black;
+}
+
+.overlay .close {
+   position: absolute;
+   top: 20px;
+   right: 45px;
+   font-size: 60px;
+   color: black;
+}
+
+/* asasd */
+
+.gridget {
+   padding-top: 100px;
+   display: grid;
+   grid-template-columns: 20px 50px 10px;
+   grid-template-rows: 400px 1fr 1fr 1fr 1fr 1fr;
+   grid-template-areas: ". textleft ." ". donate ."". socmedh." ". ucan ." ". events ."". ewp.";
+   grid-gap: 10px;
+   justify-content: center;
+   text-align: center;
+}
+
+.textleft {
+   width: 374px;
+   height: 495px;
+   color: white;
+   text-align: left;
+   justify-self: center;
+   grid-area: textleft;
+}
+
+.textleft h1 {
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 24;
+   line-height: 50px;
+}
+
+.judul {
+   width: 374px;
+   height: 495px;
+   color: white;
+   text-align: left;
+   justify-self: center;
+   grid-area: judul;
+}
+
+.judul h1 {
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 24;
+   line-height: 50px;
+}
+
+.textleft h2 {
+   padding-top: 35px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 18.8px;
+   text-decoration: underline;
+   line-height: 31px;
+}
+
+.textleft p {
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 26.37px;
+   padding-top: 35px;
+}
+
+body {
+   text-align: center;
+   background-color: #2b2b28;
+}
+
+.donate {
+   float: left;
+   width: 374px;
+   height: 495px;
+   background-color: #3D7F47;
+   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+   border-radius: 47px;
+   justify-self: center;
+   grid-area: donate;
+}
+
+.donate h1 {
+   padding-top: 43px;
+   padding-bottom: 25px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 28.8px;
+   line-height: 31.64px;
+   color: white;
+   text-align: center;
+}
+
+.donate p {
+   width: 212px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 24px;
+   color: white;
+   padding-right: 90px;
+   padding-left: 90px;
+   padding-bottom: 22px;
+}
+
+.email {
+   width: 220px;
+   height: 27px;
+   background-color: #2B5932;
+   color: white;
+   text-align: left;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 13pt;
+   text-indent: 12px;
+   padding-top: 3px;
+}
+
+.donatebutton {
+   width: 96px;
+   height: 30px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 13pt;
+   color: #2B2B28;
+   text-align: center;
+   background-color: #FFFFFF;
+   border-radius: 15.5px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   padding-top: 6px;
+   padding-right: 7px;
+}
+
+.socmedh {
+   width: 374px;
+   height: 495px;
+   background: #3D7F47;
+   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+   border-radius: 47px;
+   justify-self: center;
+   grid-area: socmedh;
+}
+
+.socmedh h1 {
+   width: 250px;
+   padding-top: 43px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 28.8px;
+   line-height: 31.64px;
+   color: white;
+   text-align: center;
+   padding-right: 85px;
+   padding-left: 55px;
+}
+
+.socmedh p {
+   width: 267px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 24px;
+   color: white;
+   padding-right: 60px;
+   padding-left: 60px;
+   padding-bottom: 22px;
+   padding-top: 20px;
+   text-align: center;
+}
+
+.icon_float {
+   float: left;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ucan {
+   float: left;
+   width: 374px;
+   height: 495px;
+   background-color: #3D7F47;
+   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+   border-radius: 47px;
+   justify-self: center;
+   grid-area: ucan;
+}
+
+.ucan h1 {
+   width: 250px;
+   padding-top: 43px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 28.8px;
+   line-height: 31.64px;
+   color: white;
+   text-align: center;
+   padding-right: 85px;
+   padding-left: 55px;
+}
+
+.events {
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   color: white;
+   float: left;
+   width: 374px;
+   height: 495px;
+   background-color: #3D7F47;
+   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+   border-radius: 47px;
+   justify-self: center;
+   grid-area: events;
+}
+
+.ewp {
+   float: left;
+   width: 374px;
+   height: 495px;
+   background-color: #3D7F47;
+   box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+   border-radius: 47px;
+   margin-top: 25px;
+   justify-self: center;
+   grid-area: ewp;
+}
+
+.ewp p {
+   width: 272px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 24px;
+   color: white;
+   padding-right: 50px;
+   padding-left: 50px;
+   padding-bottom: 22px;
+   text-align: center;
+}
+
+.ewp h1 {
+   width: 250px;
+   padding-top: 43px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 28.8px;
+   line-height: 31.64px;
+   color: white;
+   text-align: center;
+   padding-right: 85px;
+   padding-left: 55px;
+}
+
+.ewpbutton {
+   position: relative;
+   width: 96px;
+   height: 30px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 13pt;
+   color: #2B2B28;
+   text-align: center;
+   background-color: #FFFFFF;
+   border-radius: 15.5px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin-left: 130px;
+   margin-right: 50px;
+   margin-bottom: 100px;
+   margin-top: 30px;
+   padding-top: 6px;
+   padding-right: 8px;
+}
+
+.ucan p {
+   width: 175px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 24px;
+   color: white;
+   padding-right: 95px;
+   padding-left: 95px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   text-align: center;
+}
+
+.ucanbutton {
+   width: 96px;
+   height: 30px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 13pt;
+   color: #2B2B28;
+   text-align: center;
+   background-color: #FFFFFF;
+   border-radius: 15.5px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   padding-top: 6px;
+   padding-right: 8px;
+   justify-self: center
+}
+
+.events p {
+   width: 195px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 24px;
+   color: white;
+   padding-right: 95px;
+   padding-left: 85px;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   text-align: center;
+}
+
+.events h1 {
+   width: 250px;
+   padding-top: 43px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 28.8px;
+   line-height: 31.64px;
+   color: white;
+   text-align: center;
+   padding-right: 85px;
+   padding-left: 55px;
+}
+
+.eventbutton {
+   position: relative;
+   width: 96px;
+   height: 30px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 13pt;
+   color: #2B2B28;
+   text-align: center;
+   background-color: #FFFFFF;
+   border-radius: 15.5px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin-left: 130px;
+   margin-right: 50px;
+   margin-bottom: 100px;
+   padding-top: 6px;
+   padding-right: 8px;
+}
+
+.grideve {
+   padding-top: 100px;
+   display: grid;
+   grid-template-columns: 1fr 300px 1fr;
+   grid-template-rows: 10px 1fr 300px 200px 200px 200px 350px 300px 200px 200px 300px;
+   grid-template-areas: ". . ." " . textewp ."". ewpph ."". c1 ."". c2 ."". c3 ." ". c4 ."". c5 ."". c6 ." ". c7 ."". c8 . ";
+   grid-gap: 10px;
+   justify-content: center;
+   text-align: center;
+}
+
+.column {
+   color: white;
+   position: relative;
+   text-align: left;
+}
+
+.c1 {
+   justify-self: center;
+   grid-area: c1;
+}
+
+.c2 {
+   justify-self: center;
+   grid-area: c2;
+}
+
+.c3 {
+   justify-self: center;
+   grid-area: c3;
+}
+
+.c4 {
+   justify-self: center;
+   grid-area: c4;
+}
+
+.c5 {
+   justify-self: center;
+   grid-area: c5;
+}
+
+.c6 {
+   justify-self: center;
+   grid-area: c6;
+}
+
+.c7 {
+   justify-self: center;
+   grid-area: c7;
+}
+
+.c8 {
+   justify-self: center;
+   grid-area: c8;
+}
+
+.textewp {
+   position: relative;
+   width: 220px;
+   margin: 0 auto;
+   color: white;
+   text-align: left;
+   padding-left: 0px;
+   padding-right: 130px;
+   justify-self: center;
+   grid-area: textewp;
+}
+
+.textewp h1 {
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-style: normal;
+   font-size: 41.47px;
+}
+
+.textewp p {
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 26.37px;
+   padding-top: 35px;
+}
+
+.ncircle {
+   width: 35px;
+   line-height: 30px;
+   border-radius: 50%;
+   text-align: center;
+   font-size: 20px;
+   border: 3px solid #FFFFFF;
+   box-sizing: border-box;
+   color: white;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   margin-top: 50px;
+}
+
+.ewpph {
+   position: relative;
+   justify-self: center;
+   grid-area: ewpph;
+}
+
+.gridevents {
+   padding-top: 100px;
+   display: grid;
+   grid-template-columns: 20px 1fr 20px;
+   grid-template-rows: 100px 600px 600px 600px 600px 600px 600px 600px 1fr;
+   grid-template-areas: ". judul ." ". eve1 ." ". eve2 ." ". eve3 ." ". eve4 ." ". eve5 ." ". eve6 ." ". eve7 ." ". eve8 .";
+   grid-gap: 15px;
+   justify-content: center;
+   text-align: center;
+}
+.griducando {
+   padding-top: 100px;
+   display: grid;
+   grid-template-columns: 20px 1fr 20px;
+   grid-template-rows: 100px 600px 600px 600px 600px 600px 600px;
+   grid-template-areas: ". judul ." ". eve1 ." ". eve2 ." ". eve3 ." ". eve4 ." ". eve5 ." ". eve6 .";
+   grid-gap: 15px;
+   justify-content: center;
+   text-align: center;
+}
+
+.gridevents img {
+   width: 373px;
+   height: 225px;
+}
+.griducando img {
+   width: 373px;
+   height: 225px;
+}
+
+.evejudul {
+   width: 320px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 28.8px;
+   line-height: 24px;
+   color: white;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.eveisi {
+   width: 303px;
+   padding-top: 20px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 24px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.evee {
+   float: left;
+   width: 374px;
+   background-color: #3D7F47;
+}
+
+.eve1 {
+   justify-self: center;
+   grid-area: eve1;
+}
+
+.eve2 {
+   justify-self: center;
+   grid-area: eve2;
+}
+
+.eve3 {
+   justify-self: center;
+   grid-area: eve3;
+}
+
+.eve4 {
+   justify-self: center;
+   grid-area: eve4;
+}
+
+.eve5 {
+   justify-self: center;
+   grid-area: eve5;
+}
+
+.eve6 {
+   justify-self: center;
+   grid-area: eve6;
+}
+
+.eve7 {
+   justify-self: center;
+   grid-area: eve7;
+}
+
+.eve8 {
+   height: 600px;
+   justify-self: center;
+   grid-area: eve8;
+}
+
+.imgevebut {
+   width: 96px;
+   height: 30px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 13pt;
+   color: #2B2B28;
+   text-align: center;
+   background-color: #FFFFFF;
+   border-radius: 15.5px;
+   /*       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+   padding-top: 6px;
+   padding-right: 7px;
+}
+
+.foot2 {
+   justify-self: left;
+   grid-area: foot2;
+}
+
+.foot3 {
+   justify-self: left;
+   grid-area: foot3;
+}
+
+.foot4 {
+   justify-self: left;
+   grid-area: foot4;
+}
+
+.foot5 {
+   justify-self: left;
+   width: auto;
+   grid-area: foot5;
+   margin-top: -15%;
+}
+
+.foot6 {
+   justify-self: left;
+   grid-area: foot6;
+}
+
+.footspec {
+   justify-self: left;
+   grid-area: footspec;
+}
+
+.gridfoot {
+   padding-top: 10%;
+   display: grid;
+   grid-template-columns: 40px 1fr;
+   grid-template-rows: 100px 130px 180px 150px 150px 100px 1px;
+   grid-template-areas: ". foot2 " ". foot6 " ". foot3 " ". foot4 " ". footspec " ". foot5";
+   background-color: #3D7F47;
+   margin-top: 10%;
+   justify-content: left;
+   justify-self: left;
+   text-align: left;
+   color: white;
+}
+
+.judulfoot {
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   /* identical to box height */
+   color: #FFFFFF;
+}
+
+.isifoot {
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16,67px;
+   line-height: 20px;
+   /* identical to box height */
+   text-decoration-line: underline;
+   color: #FFFFFF;
+}
+
+.iconfoot {
+   width: 30.98px;
+   height: 30.98px;
+}
+.grididx {
+   display: grid;
+   grid-template-columns: 20px 1fr 20px;
+   grid-template-rows: 300px 300px 100px 1fr 1fr ;
+   grid-template-areas:". titleidx ." ". typo2 ." ". judul1 ." ". isi1 ." ". . .";
+   justify-content: left;
+   justify-self: left;
+   text-align: left;
+}
+.titleidx {
+   background-image: url(../sendhelp/7sticker-07.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   justify-self: left;
+   width: 408px;
+   height: 223px;
+   margin-top: 15px;
+   grid-area: titleidx;
+}
+
+.typo2 {
+   justify-self: center;
+   grid-area: typo2;
+}
+
+img.typo2 {
+   width: 238px;
+   height: auto;
+   margin-left: 10%;
+}
+
+.judul1{
+  font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   justify-self: center;
+   grid-area: judul1;
+   color: white;
+}
+
+.isi1{
+  font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 200;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 24px;
+   justify-self: center;
+   grid-area: isi1;
+   color: white;
+}
+
+.bcktop {
+   background-image: url(../sendhelp/home_mobile-02.jpg);
+   background-size: cover;
+   width: 393px;
+   height: 1050px;
+}
+p.judul1 {
+   justify-self: center;
+   grid-area: judul1;
+}
+
+p.isi1 {
+   justify-self: center;
+   grid-area: isi1;
+}
+
+.mainidx {
+   background-color: #2B2B28;
+}
+
+.abt1{ 
+   padding-top: 0px;
+   display: grid;
+   grid-template-columns: 1fr 1fr  1fr;
+   grid-template-rows: 1fr;
+   grid-template-areas: ". textabt .";
+   justify-content: left;
+   justify-self: left;
+   text-align: left;
+}
+.abt2 {
+   display: grid;
+   grid-template-columns: 1fr 1fr  1fr;
+   grid-template-rows: 500px 1fr;
+   grid-template-areas: ". . ."". ivonne .";
+   justify-content: left;
+   justify-self: left;
+   text-align: left;
+}
+.abt3 {
+   display: grid;
+   grid-template-columns: 1fr 1fr  1fr;
+   grid-template-rows: 100px 1fr;
+   grid-template-areas: ". . ."". anton .";
+   justify-content: left;
+   justify-self: left;
+   text-align: left;
+}
+
+.textabt {
+   padding-top: 100px;
+   width: 80vw;
+   height: 545px;
+   margin: 0 auto;
+   color: white;
+   text-align: left;
+   justify-self: center;
+   grid-area: textabt;
+}
+.textabt h1 {
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 41.47px;
+   line-height: 50px;
+}
+.textabt p {
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 26.37px;
+   padding-top: 35px;
+}
+.ivonne {
+   width: 73vw;
+   height: 36.018957345971565vw;
+   background-color: #888988;
+   overflow: hidden;
+   overflow-y: scroll;
+   justify-self: center;
+   grid-area: ivonne;
+}
+.ivonne img {
+   padding-top: 35px;
+   padding-left: 40px;
+   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+   justify-self: center;
+   grid-area: ivonneimg;
+}
+.ivonne h1 {
+   width: 100px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 28.8px;
+   line-height: 31.64px;
+   color: white;
+   text-align: center;
+   padding-top: 45px;
+   padding-left: 80px;
+   justify-self: center;
+   grid-area: ivonneh1;
+}
+.ivonne h2 {
+   width: 200px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 28.8px;
+   line-height: 31.64px;
+   color: #1D4020;
+   text-align: center;
+   padding-left: 30px;
+   padding-top: 20px;
+   justify-self: center;
+   grid-area: ivonneh2;
+}
+.ivonne p {
+   width: 52vw;
+   text-align: left;
+   color: white;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 24px;
+   padding-left: 250px;
+   margin-right: 45px;
+   padding-top: 24px;
+   justify-self: center;
+   grid-area: ivonnep;
+}
+.anton {
+   width: 73vw;
+   height: 36.018957345971565vw;
+
+   background-color: #888988;
+   overflow: hidden;
+   overflow-y: scroll;
+   justify-self: center;
+   grid-area: anton;
+}
+.anton img {
+   padding-top: 40px;
+   padding-left: 40px;
+   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+}
+.anton h1 {
+   width: 120px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 28.8px;
+   line-height: 31.64px;
+   color: white;
+   text-align: center;
+   padding-top: 45px;
+   padding-left: 65px;
+}
+.anton h2 {
+   width: 180px;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 28.8px;
+   line-height: 31.64px;
+   color: #1D4020;
+   text-align: center;
+   padding-left: 40px;
+   padding-top: 20px;
+}
+.anton p {
+   width: 52vw;
+   text-align: left;
+   color: white;
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 24px;
+   padding-left: 250px;
+   margin-right: 45px;
+   padding-top: 24px;
+}
+
+@media screen and (max-width: 1081px) {
+   .nav__links, .cta, .foot1 {
+      display: none;
+   }
+   .menu, .footspec {
+      display: initial;
+   }
+
+   .abt1 {
+         margin-bottom: 100%;
+
+   .
+   }
+}
+
+@media screen and (max-width: 393px) {
+   .nav__links, .cta, .foot1 {
+      display: none;
+   }
+   .menu, .footspec {
+      display: initial;
+   }
+
+   .abt1 {
+         margin-bottom: 300%;
+   }
+}
+
+@media screen and (max-width: 1080px) {
+   .nav__links, .cta, .foot1 {
+      display: none;
+   }
+   .menu, .footspec {
+      display: initial;
+   }
+
+   .abt1 {
+         margin-bottom: 30%;
+   }
+}
+
+@media only screen and (min-width: 1081px) {
+   .overlay a {
+      font-size: 20px;
+   }
+   .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+   }
+   .textleft {
+      width: 346px;
+      height: 495px;
+      color: white;
+      text-align: left;
+      justify-self: center;
+      grid-area: textleft;
+   }
+   .textleft h1 {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 31.47px;
+      line-height: 50px;
+   }
+   .judul {
+      padding-top: 5%;
+      width: 346px;
+      height: 495px;
+      color: white;
+      text-align: left;
+      justify-self: left;
+      grid-area: judul;
+   }
+   .judul h1 {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 41.47px;
+      line-height: 50px;
+   }
+   .textleft h2 {
+      padding-top: 35px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18.8px;
+      text-decoration: underline;
+      line-height: 31px;
+   }
+   .textleft p {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 26.37px;
+      padding-top: 35px;
+   }
+   body {
+      text-align: center;
+      background-color: #2b2b28;
+   }
+   /* asdasd */
+   .gridget {
+      padding-top: 100px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: ". textleft donate socmedh."". ucan events ewp.";
+      grid-gap: 30px;
+      justify-content: center;
+      text-align: center;
+   }
+   /* asdasd */
+   .donate {
+      float: left;
+      width: 374px;
+      height: 495px;
+      background-color: #3D7F47;
+      box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 47px;
+      justify-self: center;
+      grid-area: donate;
+   }
+   .donate h1 {
+      padding-top: 43px;
+      padding-bottom: 25px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 28.8px;
+      line-height: 31.64px;
+      color: white;
+      text-align: center;
+   }
+   .donate p {
+      width: 212px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      padding-right: 90px;
+      padding-left: 90px;
+      padding-bottom: 22px;
+   }
+   .email {
+      width: 220px;
+      height: 27px;
+      background-color: #2B5932;
+      color: white;
+      text-align: left;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 13pt;
+      text-indent: 12px;
+      padding-top: 3px;
+      align-self: center;
+      justify-self: center;
+      align-content: center;
+      justify-content: center;
+   }
+   .donatebutton {
+      width: 96px;
+      height: 30px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 13pt;
+      color: #2B2B28;
+      text-align: center;
+      background-color: #FFFFFF;
+      border-radius: 15.5px;
+      z-index: -1;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      /*       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+      padding-top: 6px;
+      padding-right: 7px;
+   }
+   .socmedh {
+      width: 374px;
+      height: 495px;
+      background: #3D7F47;
+      box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 47px;
+      justify-self: center;
+      grid-area: socmedh;
+   }
+   .socmedh h1 {
+      width: 250px;
+      padding-top: 43px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 28.8px;
+      line-height: 31.64px;
+      color: white;
+      text-align: center;
+      padding-right: 85px;
+      padding-left: 55px;
+   }
+   .socmedh p {
+      width: 267px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      padding-right: 60px;
+      padding-left: 60px;
+      padding-bottom: 22px;
+      padding-top: 20px;
+      text-align: center;
+   }
+   .icon_float {
+      float: left;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .ucan {
+      float: left;
+      width: 374px;
+      height: 495px;
+      background-color: #3D7F47;
+      box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 47px;
+      margin-top: 25px;
+      justify-self: center;
+      grid-area: ucan;
+   }
+   .ucan h1 {
+      width: 250px;
+      padding-top: 43px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 28.8px;
+      line-height: 31.64px;
+      color: white;
+      text-align: center;
+      padding-right: 85px;
+      padding-left: 55px;
+   }
+   .events {
+      float: left;
+      width: 374px;
+      height: 495px;
+      background-color: #3D7F47;
+      box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 47px;
+      margin-top: 25px;
+      justify-self: center;
+      grid-area: events;
+   }
+   .events h1 {
+      width: 250px;
+      padding-top: 43px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 28.8px;
+      line-height: 31.64px;
+      color: white;
+      text-align: center;
+      padding-right: 85px;
+      padding-left: 55px;
+   }
+   .ewp {
+      float: left;
+      width: 374px;
+      height: 495px;
+      background-color: #3D7F47;
+      box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 47px;
+      margin-top: 25px;
+      justify-self: center;
+      grid-area: ewp;
+   }
+   .ewp h1 {
+      width: 250px;
+      padding-top: 43px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 28.8px;
+      line-height: 31.64px;
+      color: white;
+      text-align: center;
+      padding-right: 85px;
+      padding-left: 55px;
+   }
+   .ewp p {
+      width: 272px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      padding-right: 50px;
+      padding-left: 50px;
+      padding-bottom: 22px;
+      text-align: center;
+   }
+   .ewpbutton {
+      position: relative;
+      width: 96px;
+      height: 30px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 13pt;
+      color: #2B2B28;
+      text-align: center;
+      background-color: #FFFFFF;
+      border-radius: 15.5px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin-left: 130px;
+      margin-right: 50px;
+      margin-bottom: 100px;
+      margin-top: 30px;
+      padding-top: 6px;
+      padding-right: 8px;
+   }
+   .ucan p {
+      width: 175px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      padding-right: 95px;
+      padding-left: 95px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+   }
+   .ucanbutton {
+      position: relative;
+      width: 96px;
+      height: 30px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 13pt;
+      color: #2B2B28;
+      text-align: center;
+      background-color: #FFFFFF;
+      border-radius: 15.5px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin-left: 130px;
+      margin-right: 50px;
+      margin-bottom: 100px;
+      padding-top: 6px;
+      padding-right: 8px;
+   }
+   .events p {
+      width: 195px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      padding-right: 95px;
+      padding-left: 85px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      text-align: center;
+   }
+   .eventbutton {
+      position: relative;
+      width: 96px;
+      height: 30px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 13pt;
+      color: #2B2B28;
+      text-align: center;
+      background-color: #FFFFFF;
+      border-radius: 15.5px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin-left: 130px;
+      margin-right: 50px;
+      margin-bottom: 100px;
+      padding-top: 6px;
+      padding-right: 8px;
+   }
+
+   .abt1{
+      padding-top: 25px;
+      display: grid;
+      grid-template-columns: 1fr 1fr  1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: ". textabt .";
+      justify-content: left;
+      justify-self: left;
+      text-align: left;
+   }
+   .abt2{
+      display: grid;
+      grid-template-columns: 1fr 1fr  1fr;
+      grid-template-rows: 300px 1fr;
+      grid-template-areas: ". . ."". ivonne .";
+      justify-content: left;
+      justify-self: left;
+      text-align: left;
+   }
+   .abt3{
+      display: grid;
+      grid-template-columns: 1fr 1fr  1fr;
+      grid-template-rows: 100px 1fr;
+      grid-template-areas: ". . ."". anton .";
+      justify-content: left;
+      justify-self: left;
+      text-align: left;
+   }
+   
+   .textabt {
+      padding-top: 100px;
+      width: 80vw;
+      height: 545px;
+      margin: 0 auto;
+      color: white;
+      text-align: left;
+      justify-self: center;
+      grid-area: textabt;
+   }
+   .textabt h1 {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 41.47px;
+      line-height: 50px;
+   }
+   .textabt p {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 26.37px;
+      padding-top: 35px;
+   }
+   .ivonne {
+      width: 73vw;
+      height: 36.018957345971565vw;
+      background-color: #888988;
+      overflow: hidden;
+      overflow-y: scroll;
+      justify-self: center;
+      grid-area: ivonne;
+   }
+   .ivonne img {
+      padding-top: 35px;
+      filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+      justify-self: center;
+      grid-area: ivonneimg;
+   }
+   .ivonne h1 {
+      width: 100px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 28.8px;
+      line-height: 31.64px;
+      color: white;
+      text-align: center;
+      padding-top: 45px;
+      padding-left: 60px;
+      justify-self: center;
+      grid-area: ivonneh1;
+   }
+   .ivonne h2 {
+      width: 200px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 28.8px;
+      line-height: 31.64px;
+      color: #1D4020;
+      text-align: center;
+      padding-left: 10px;
+      justify-self: center;
+      grid-area: ivonneh2;
+   }
+   .ivonne p {
+      width: 52vw;
+      text-align: left;
+      color: white;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 24px;
+      padding-left: 250px;
+      margin-right: 45px;
+      padding-top: 24px;
+      justify-self: center;
+      grid-area: ivonnep;
+   }
+   .anton {
+      width: 73vw;
+      height: 36.018957345971565vw;
+
+      background-color: #888988;
+      overflow: hidden;
+      overflow-y: scroll;
+      justify-self: center;
+      grid-area: anton;
+   }
+   .anton img {
+      padding-top: 20px;
+      filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+   }
+   .anton h1 {
+      width: 120px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 28.8px;
+      line-height: 31.64px;
+      color: white;
+      text-align: center;
+      padding-top: 45px;
+      padding-left: 55px;
+   }
+   .anton h2 {
+      width: 180px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 28.8px;
+      line-height: 31.64px;
+      color: #1D4020;
+      text-align: center;
+      padding-left: 25px;
+   }
+   .anton p {
+      width: 52vw;
+      text-align: left;
+      color: white;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 24px;
+      padding-left: 250px;
+      margin-right: 45px;
+      padding-top: 24px;
+   }
+   /*yang baru*/
+   .textewp {
+      position: relative;
+      width: 53.888888888888886vw;
+      margin: 0 auto;
+      color: white;
+      text-align: left;
+      padding-left: 0px;
+      padding-right: 130px;
+      justify-self: center;
+      grid-area: textewp;
+   }
+   .textewp h1 {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 41.47px;
+      line-height: 50px;
+   }
+   .textewp p {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 26.37px;
+      padding-top: 35px;
+   }
+   .ewpph {
+      position: relative;
+      justify-self: center;
+      grid-area: ewpph;
+   }
+
+   }
+   .ewptable {
+      position: relative;
+      left: 8.958333333333334vw;
+      width: 250px;
+      height: 50vw;
+      margin-left: 0px;
+      display: table;
+      color: white;
+      box-sizing: border-box;
+   }
+   .column {
+      position: relative;
+      text-align: left;
+   }
+   .grideve {
+      display: grid;
+      grid-template-columns: 1fr 300px 300px 300px 1fr;
+      grid-template-rows: 10px 300px 200px 1fr 150px;
+      grid-template-areas: ". . . . ." ". textewp textewp ewpph ."". c1 c2 c3 ." ". c4 c5 c6 ." ". c7 c8 . .";
+      grid-gap: 30px;
+      justify-content: center;
+      text-align: center;
+   }
+
+     .c1, h1 { 
+      margin-top: 10px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 24px;
+
+   }
+
+   .c1, p {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      padding-top: 10px;
+   }
+
+   .c1 {
+      justify-self: center;
+      grid-area: c1;
+   }
+   .c2 {
+      justify-self: center;
+      grid-area: c2;
+   }
+   .c3 {
+      justify-self: center;
+      grid-area: c3;
+   }
+   .c4 {
+      justify-self: center;
+      grid-area: c4;
+   }
+   .c5 {
+      justify-self: center;
+      grid-area: c5;
+   }
+   .c6 {
+      justify-self: center;
+      grid-area: c6;
+   }
+   .c7 {
+      justify-self: center;
+      grid-area: c7;
+   }
+   .c8 {
+      justify-self: center;
+      grid-area: c8;
+   }
+   .ncircle {
+      width: 35px;
+      line-height: 30px;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 20px;
+      border: 3px solid #FFFFFF;
+      box-sizing: border-box;
+      color: white;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      margin-top: 50px;
+   }
+   .ewptable h1 {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      font-style: normal;
+      padding-left: 50px;
+      padding-bottom: 20px;
+      margin-top: -30px;
+   }
+   .ewptable p {
+      position: relative;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 26.37px;
+      text-align: left;
+      padding-right: 30px;
+      width: 374px;
+   }
+   .footer {
+      position: relative;
+      width: 100vw;
+      height: 17.76485788113695vw;
+      background-color: #3D7F47;
+      text-align: left;
+      padding-top: 55px;
+      padding-bottom: 55px;
+      padding-left: 130px;
+      padding-right: 130px;
+      margin-top: 100vh;
+   }
+   .footer h1 {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 26.37px;
+      color: white;
+   }
+   .footer p {
+      padding-top: 15px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16.67px;
+      line-height: 24px;
+      color: white;
+   }
+   .fcol {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16.67px;
+      line-height: 24px;
+      color: #2B2B28;
+   }
+   .scol {
+      top: -50px;
+      float: left;
+      margin-left: 435px;
+      padding-right: 168px;
+      margin-top: -110px;
+   }
+   .column2 {
+      position: relative;
+      display: table-cell;
+      text-align: left;
+      width: 33.33%;
+      padding-right: 68px;
+   }
+   .tcol {
+      height: 140px;
+      margin-left: 80.34722222222223vw;
+      margin-top: -130px;
+   }
+   .lastrow {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16.67px;
+      line-height: 24px;
+      color: #2B2B28;
+      padding-top: 50px;
+   }
+   ul {
+      list-style-type: none;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16.67px;
+      line-height: 24px;
+      color: white;
+      text-decoration-line: underline;
+      padding-top: 5px;
+   }
+   .tcol, img {
+      padding-right: 5px;
+      padding-top: 15px;
+   }
+   .griducando {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 150px 1fr 1fr;
+      grid-template-areas: ". judul judul judul ." ". eve1 eve2 eve3 ." ". eve4 eve5 eve6 .";
+      grid-gap: 30px;
+      justify-content: center;
+      text-align: center;
+   }
+   .griducando .judul{
+      width: 500px;
+   }
+   .gridevents {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 150px 1fr 1fr 100px 400px;
+      grid-template-areas: ". judul judul judul ." ". eve1 eve2 eve3 ." ". eve4 eve5 eve6 ." ". eve7 eve8 . ." ". . . . .";
+      grid-gap: 30px;
+      justify-content: center;
+      text-align: center;
+   }
+   .evee {
+      background: #3D7F47;
+      height: 600px;
+   }
+   .eve1 {
+      justify-self: center;
+      grid-area: eve1;
+   }
+   .eve2 {
+      justify-self: center;
+      grid-area: eve2;
+   }
+   .eve3 {
+      justify-self: center;
+      grid-area: eve3;
+   }
+   .eve4 {
+      justify-self: center;
+      grid-area: eve4;
+   }
+   .eve5 {
+      justify-self: center;
+      grid-area: eve5;
+   }
+   .eve6 {
+      justify-self: center;
+      grid-area: eve6;
+   }
+   .eve7 {
+      justify-self: center;
+      grid-area: eve7;
+   }
+   .eve8 {
+      justify-self: center;
+      grid-area: eve8;
+   }
+   .gridfoot {
+      display: grid;
+      grid-template-columns: 1fr 300px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 200px 1fr;
+      grid-template-rows: 350px 1fr;
+      grid-template-areas: ". foot4 . foot2 . foot6 . foot3 . footspec ." ". foot5 foot5 foot5 foot5 foot5 foot5 foot5 foot5 foot5 . ";
+      background-color: #3D7F47;
+      font-size: large;
+      margin-top: 10%;
+      text-align: left;
+   }
+   p.isifoot1{
+      width: 500px;
+   }
+   .grididx {
+      padding-top: 25px;
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      grid-template-rows: 300px 30em 150px 1fr;
+      grid-template-areas: ". titleidx " ". typo2" ". judul1" ". isi1";
+      justify-content: left;
+      justify-self: left;
+      text-align: left;
+   }
+   .titleidx {
+      background-image: url(../sendhelp/7sticker-07.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-self: left;
+      width: 819px;
+      height: 450px;
+      grid-area: titleidx;
+      margin-top: 20px;
+   }
+   .typo2 {
+      justify-self: center;
+      grid-area: typo2;
+      margin-left: -25%;
+   }
+   img.typo2 {
+      width: 402px;
+      height: auto;
+   }
+   .bcktop {
+      background-image: url(../sendhelp/home_pic.jpg);
+      background-size: cover;
+      width: auto;
+      height: 1030px;
+   }
+
+   p.judul1 {
+      position: relative;
+      float: left;
+      justify-self: center;
+      grid-area: judul1;
+   }
+
+   p.isi1 {
+      position: relative;
+      justify-self: center;
+      grid-area: isi1;
+      width: 582px;
+      bottom: 90%;
+      margin-right: 50%;
+   }
+
+   .hbutton {
+   width: 200px;
+   height: 30px;
+   background-color: #FFFFFF;
+   border-radius: 20px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   padding-bottom: 10px;
+
+}
+
+.hbutton p {
+   font-family: bebas-neue-pro-expanded, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 13pt;
+   color: #2B2B28;
+   text-align: center;
+}
+
+
+.textfoot {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16.67px;
+      line-height: auto;
+      color: white;
+}

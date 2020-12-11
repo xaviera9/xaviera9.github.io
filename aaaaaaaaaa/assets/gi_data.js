@@ -1,0 +1,3 @@
+var title = 'HOW TO GET INVOLVED';
+var paragraph = 'There are plenty of ways for you to join the World Wildlife Day celebrations, wherever you are. World Wildlife Day has been oberved in the in the past by people, groups and authorities around the world and in various ways. Whether you take part in big events or even the smallest of gatherings, you can help raise awareness of wildlife and promote conservation and sustainable use!';
+var subtitle = 'Here are some of our suggestions for this years celebrations';
