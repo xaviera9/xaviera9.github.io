@@ -646,7 +646,6 @@ body {
    justify-content: center;
    text-align: center;
 }
-
 .griducando {
    padding-top: 100px;
    display: grid;
@@ -662,7 +661,6 @@ body {
    width: 373px;
    height: 225px;
 }
-
 .griducando img {
    width: 373px;
    height: 225px;
@@ -814,7 +812,7 @@ body {
    font-family: bebas-neue-pro-expanded, sans-serif;
    font-weight: 400;
    font-style: normal;
-   font-size: 16, 67px;
+   font-size: 16,67px;
    line-height: 20px;
    /* identical to box height */
    text-decoration-line: underline;
@@ -825,17 +823,15 @@ body {
    width: 30.98px;
    height: 30.98px;
 }
-
 .grididx {
    display: grid;
    grid-template-columns: 20px 1fr 20px;
-   grid-template-rows: 300px 300px 100px 1fr 1fr;
-   grid-template-areas: ". titleidx ." ". typo2 ." ". judul1 ." ". isi1 ." ". . .";
+   grid-template-rows: 300px 300px 100px 1fr 1fr ;
+   grid-template-areas:". titleidx ." ". typo2 ." ". judul1 ." ". isi1 ." ". . .";
    justify-content: left;
    justify-self: left;
    text-align: left;
 }
-
 .titleidx {
    background-image: url(../sendhelp/7sticker-07.png);
    background-repeat: no-repeat;
@@ -858,8 +854,8 @@ img.typo2 {
    margin-left: 10%;
 }
 
-.judul1 {
-   font-family: bebas-neue-pro-expanded, sans-serif;
+.judul1{
+  font-family: bebas-neue-pro-expanded, sans-serif;
    font-weight: 600;
    font-style: normal;
    justify-self: center;
@@ -867,8 +863,8 @@ img.typo2 {
    color: white;
 }
 
-.isi1 {
-   font-family: bebas-neue-pro-expanded, sans-serif;
+.isi1{
+  font-family: bebas-neue-pro-expanded, sans-serif;
    font-weight: 200;
    font-style: normal;
    font-size: 20px;
@@ -884,7 +880,6 @@ img.typo2 {
    width: 393px;
    height: 1050px;
 }
-
 p.judul1 {
    justify-self: center;
    grid-area: judul1;
@@ -899,30 +894,28 @@ p.isi1 {
    background-color: #2B2B28;
 }
 
-.abt1 {
+.abt1{ 
    padding-top: 0px;
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr  1fr;
    grid-template-rows: 1fr;
    grid-template-areas: ". textabt .";
    justify-content: left;
    justify-self: left;
    text-align: left;
 }
-
 .abt2 {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr  1fr;
    grid-template-rows: 500px 1fr;
    grid-template-areas: ". . ."". ivonne .";
    justify-content: left;
    justify-self: left;
    text-align: left;
 }
-
 .abt3 {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr  1fr;
    grid-template-rows: 100px 1fr;
    grid-template-areas: ". . ."". anton .";
    justify-content: left;
@@ -940,7 +933,6 @@ p.isi1 {
    justify-self: center;
    grid-area: textabt;
 }
-
 .textabt h1 {
    font-family: bebas-neue-pro-expanded, sans-serif;
    font-weight: 600;
@@ -948,7 +940,6 @@ p.isi1 {
    font-size: 41.47px;
    line-height: 50px;
 }
-
 .textabt p {
    font-family: bebas-neue-pro-expanded, sans-serif;
    font-weight: 400;
@@ -957,7 +948,6 @@ p.isi1 {
    line-height: 26.37px;
    padding-top: 35px;
 }
-
 .ivonne {
    width: 73vw;
    height: 36.018957345971565vw;
@@ -967,7 +957,6 @@ p.isi1 {
    justify-self: center;
    grid-area: ivonne;
 }
-
 .ivonne img {
    padding-top: 35px;
    padding-left: 40px;
@@ -975,7 +964,6 @@ p.isi1 {
    justify-self: center;
    grid-area: ivonneimg;
 }
-
 .ivonne h1 {
    width: 100px;
    font-family: bebas-neue-pro-expanded, sans-serif;
@@ -990,7 +978,6 @@ p.isi1 {
    justify-self: center;
    grid-area: ivonneh1;
 }
-
 .ivonne h2 {
    width: 200px;
    font-family: bebas-neue-pro-expanded, sans-serif;
@@ -1005,7 +992,6 @@ p.isi1 {
    justify-self: center;
    grid-area: ivonneh2;
 }
-
 .ivonne p {
    width: 52vw;
    text-align: left;
@@ -1021,23 +1007,21 @@ p.isi1 {
    justify-self: center;
    grid-area: ivonnep;
 }
-
 .anton {
    width: 73vw;
    height: 36.018957345971565vw;
+
    background-color: #888988;
    overflow: hidden;
    overflow-y: scroll;
    justify-self: center;
    grid-area: anton;
 }
-
 .anton img {
    padding-top: 40px;
    padding-left: 40px;
    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
 }
-
 .anton h1 {
    width: 120px;
    font-family: bebas-neue-pro-expanded, sans-serif;
@@ -1050,7 +1034,6 @@ p.isi1 {
    padding-top: 45px;
    padding-left: 65px;
 }
-
 .anton h2 {
    width: 180px;
    font-family: bebas-neue-pro-expanded, sans-serif;
@@ -1063,7 +1046,6 @@ p.isi1 {
    padding-left: 40px;
    padding-top: 20px;
 }
-
 .anton p {
    width: 52vw;
    text-align: left;
@@ -1078,6 +1060,45 @@ p.isi1 {
    padding-top: 24px;
 }
 
+@media screen and (max-width: 1081px) {
+   .nav__links, .cta, .foot1 {
+      display: none;
+   }
+   .menu, .footspec {
+      display: initial;
+   }
+
+   .abt1 {
+         margin-bottom: 100%;
+
+   .
+   }
+}
+
+@media screen and (max-width: 393px) {
+   .nav__links, .cta, .foot1 {
+      display: none;
+   }
+   .menu, .footspec {
+      display: initial;
+   }
+
+   .abt1 {
+         margin-bottom: 300%;
+   }
+}
+
+@media screen and (max-width: 1080px) {
+   .nav__links, .cta, .foot1 {
+      display: none;
+   }
+   .menu, .footspec {
+      display: initial;
+   }
+
+   .abt1 {
+         margin-bottom: 30%;
+   }
 }
 
 @media only screen and (min-width: 1081px) {
@@ -1431,34 +1452,36 @@ p.isi1 {
       padding-top: 6px;
       padding-right: 8px;
    }
-   .abt1 {
+
+   .abt1{
       padding-top: 25px;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr  1fr;
       grid-template-rows: 1fr;
       grid-template-areas: ". textabt .";
       justify-content: left;
       justify-self: left;
       text-align: left;
    }
-   .abt2 {
+   .abt2{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr  1fr;
       grid-template-rows: 300px 1fr;
       grid-template-areas: ". . ."". ivonne .";
       justify-content: left;
       justify-self: left;
       text-align: left;
    }
-   .abt3 {
+   .abt3{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr  1fr;
       grid-template-rows: 100px 1fr;
       grid-template-areas: ". . ."". anton .";
       justify-content: left;
       justify-self: left;
       text-align: left;
    }
+   
    .textabt {
       padding-top: 100px;
       width: 80vw;
@@ -1544,6 +1567,7 @@ p.isi1 {
    .anton {
       width: 73vw;
       height: 36.018957345971565vw;
+
       background-color: #888988;
       overflow: hidden;
       overflow-y: scroll;
@@ -1622,364 +1646,325 @@ p.isi1 {
       justify-self: center;
       grid-area: ewpph;
    }
-}
 
-.ewptable {
-   position: relative;
-   left: 8.958333333333334vw;
-   width: 250px;
-   height: 50vw;
-   margin-left: 0px;
-   display: table;
-   color: white;
-   box-sizing: border-box;
-}
+   }
+   .ewptable {
+      position: relative;
+      left: 8.958333333333334vw;
+      width: 250px;
+      height: 50vw;
+      margin-left: 0px;
+      display: table;
+      color: white;
+      box-sizing: border-box;
+   }
+   .column {
+      position: relative;
+      text-align: left;
+   }
+   .grideve {
+      display: grid;
+      grid-template-columns: 1fr 300px 300px 300px 1fr;
+      grid-template-rows: 10px 300px 200px 1fr 150px;
+      grid-template-areas: ". . . . ." ". textewp textewp ewpph ."". c1 c2 c3 ." ". c4 c5 c6 ." ". c7 c8 . .";
+      grid-gap: 30px;
+      justify-content: center;
+      text-align: center;
+   }
 
-.column {
-   position: relative;
-   text-align: left;
-}
+     .c1, h1 { 
+      margin-top: 10px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 24px;
 
-.grideve {
-   display: grid;
-   grid-template-columns: 1fr 300px 300px 300px 1fr;
-   grid-template-rows: 10px 300px 200px 1fr 150px;
-   grid-template-areas: ". . . . ." ". textewp textewp ewpph ."". c1 c2 c3 ." ". c4 c5 c6 ." ". c7 c8 . .";
-   grid-gap: 30px;
-   justify-content: center;
-   text-align: center;
-}
+   }
 
-.c1, h1 {
-   margin-top: 10px;
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 600;
-   font-style: normal;
-   font-size: 24px;
-}
+   .c1, p {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      padding-top: 10px;
+   }
 
-.c1, p {
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 20px;
-   padding-top: 10px;
-}
+   .c1 {
+      justify-self: center;
+      grid-area: c1;
+   }
+   .c2 {
+      justify-self: center;
+      grid-area: c2;
+   }
+   .c3 {
+      justify-self: center;
+      grid-area: c3;
+   }
+   .c4 {
+      justify-self: center;
+      grid-area: c4;
+   }
+   .c5 {
+      justify-self: center;
+      grid-area: c5;
+   }
+   .c6 {
+      justify-self: center;
+      grid-area: c6;
+   }
+   .c7 {
+      justify-self: center;
+      grid-area: c7;
+   }
+   .c8 {
+      justify-self: center;
+      grid-area: c8;
+   }
+   .ncircle {
+      width: 35px;
+      line-height: 30px;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 20px;
+      border: 3px solid #FFFFFF;
+      box-sizing: border-box;
+      color: white;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      margin-top: 50px;
+   }
+   .ewptable h1 {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      font-style: normal;
+      padding-left: 50px;
+      padding-bottom: 20px;
+      margin-top: -30px;
+   }
+   .ewptable p {
+      position: relative;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 26.37px;
+      text-align: left;
+      padding-right: 30px;
+      width: 374px;
+   }
+   .footer {
+      position: relative;
+      width: 100vw;
+      height: 17.76485788113695vw;
+      background-color: #3D7F47;
+      text-align: left;
+      padding-top: 55px;
+      padding-bottom: 55px;
+      padding-left: 130px;
+      padding-right: 130px;
+      margin-top: 100vh;
+   }
+   .footer h1 {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 26.37px;
+      color: white;
+   }
+   .footer p {
+      padding-top: 15px;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16.67px;
+      line-height: 24px;
+      color: white;
+   }
+   .fcol {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16.67px;
+      line-height: 24px;
+      color: #2B2B28;
+   }
+   .scol {
+      top: -50px;
+      float: left;
+      margin-left: 435px;
+      padding-right: 168px;
+      margin-top: -110px;
+   }
+   .column2 {
+      position: relative;
+      display: table-cell;
+      text-align: left;
+      width: 33.33%;
+      padding-right: 68px;
+   }
+   .tcol {
+      height: 140px;
+      margin-left: 80.34722222222223vw;
+      margin-top: -130px;
+   }
+   .lastrow {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16.67px;
+      line-height: 24px;
+      color: #2B2B28;
+      padding-top: 50px;
+   }
+   ul {
+      list-style-type: none;
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16.67px;
+      line-height: 24px;
+      color: white;
+      text-decoration-line: underline;
+      padding-top: 5px;
+   }
+   .tcol, img {
+      padding-right: 5px;
+      padding-top: 15px;
+   }
+   .griducando {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 150px 1fr 1fr;
+      grid-template-areas: ". judul judul judul ." ". eve1 eve2 eve3 ." ". eve4 eve5 eve6 .";
+      grid-gap: 30px;
+      justify-content: center;
+      text-align: center;
+   }
+   .griducando .judul{
+      width: 500px;
+   }
+   .gridevents {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 150px 1fr 1fr 100px 400px;
+      grid-template-areas: ". judul judul judul ." ". eve1 eve2 eve3 ." ". eve4 eve5 eve6 ." ". eve7 eve8 . ." ". . . . .";
+      grid-gap: 30px;
+      justify-content: center;
+      text-align: center;
+   }
+   .evee {
+      background: #3D7F47;
+      height: 600px;
+   }
+   .eve1 {
+      justify-self: center;
+      grid-area: eve1;
+   }
+   .eve2 {
+      justify-self: center;
+      grid-area: eve2;
+   }
+   .eve3 {
+      justify-self: center;
+      grid-area: eve3;
+   }
+   .eve4 {
+      justify-self: center;
+      grid-area: eve4;
+   }
+   .eve5 {
+      justify-self: center;
+      grid-area: eve5;
+   }
+   .eve6 {
+      justify-self: center;
+      grid-area: eve6;
+   }
+   .eve7 {
+      justify-self: center;
+      grid-area: eve7;
+   }
+   .eve8 {
+      justify-self: center;
+      grid-area: eve8;
+   }
+   .gridfoot {
+      display: grid;
+      grid-template-columns: 1fr 300px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 200px 1fr;
+      grid-template-rows: 350px 1fr;
+      grid-template-areas: ". foot4 . foot2 . foot6 . foot3 . footspec ." ". foot5 foot5 foot5 foot5 foot5 foot5 foot5 foot5 foot5 . ";
+      background-color: #3D7F47;
+      font-size: large;
+      margin-top: 10%;
+      text-align: left;
+   }
+   p.isifoot1{
+      width: 500px;
+   }
+   .grididx {
+      padding-top: 25px;
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      grid-template-rows: 300px 30em 150px 1fr;
+      grid-template-areas: ". titleidx " ". typo2" ". judul1" ". isi1";
+      justify-content: left;
+      justify-self: left;
+      text-align: left;
+   }
+   .titleidx {
+      background-image: url(../sendhelp/7sticker-07.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-self: left;
+      width: 819px;
+      height: 450px;
+      grid-area: titleidx;
+      margin-top: 20px;
+   }
+   .typo2 {
+      justify-self: center;
+      grid-area: typo2;
+      margin-left: -25%;
+   }
+   img.typo2 {
+      width: 402px;
+      height: auto;
+   }
+   .bcktop {
+      background-image: url(../sendhelp/home_pic.jpg);
+      background-size: cover;
+      width: auto;
+      height: 1030px;
+   }
 
-.c1 {
-   justify-self: center;
-   grid-area: c1;
-}
+   p.judul1 {
+      position: relative;
+      float: left;
+      justify-self: center;
+      grid-area: judul1;
+   }
 
-.c2 {
-   justify-self: center;
-   grid-area: c2;
-}
+   p.isi1 {
+      position: relative;
+      justify-self: center;
+      grid-area: isi1;
+      width: 582px;
+      bottom: 90%;
+      margin-right: 50%;
+   }
 
-.c3 {
-   justify-self: center;
-   grid-area: c3;
-}
-
-.c4 {
-   justify-self: center;
-   grid-area: c4;
-}
-
-.c5 {
-   justify-self: center;
-   grid-area: c5;
-}
-
-.c6 {
-   justify-self: center;
-   grid-area: c6;
-}
-
-.c7 {
-   justify-self: center;
-   grid-area: c7;
-}
-
-.c8 {
-   justify-self: center;
-   grid-area: c8;
-}
-
-.ncircle {
-   width: 35px;
-   line-height: 30px;
-   border-radius: 50%;
-   text-align: center;
-   font-size: 20px;
-   border: 3px solid #FFFFFF;
-   box-sizing: border-box;
-   color: white;
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 600;
-   font-style: normal;
-   margin-top: 50px;
-}
-
-.ewptable h1 {
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 600;
-   font-size: 24px;
-   font-style: normal;
-   padding-left: 50px;
-   padding-bottom: 20px;
-   margin-top: -30px;
-}
-
-.ewptable p {
-   position: relative;
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 20px;
-   line-height: 26.37px;
-   text-align: left;
-   padding-right: 30px;
-   width: 374px;
-}
-
-.footer {
-   position: relative;
-   width: 100vw;
-   height: 17.76485788113695vw;
-   background-color: #3D7F47;
-   text-align: left;
-   padding-top: 55px;
-   padding-bottom: 55px;
-   padding-left: 130px;
-   padding-right: 130px;
-   margin-top: 100vh;
-}
-
-.footer h1 {
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 600;
-   font-style: normal;
-   font-size: 20px;
-   line-height: 26.37px;
-   color: white;
-}
-
-.footer p {
-   padding-top: 15px;
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 16.67px;
-   line-height: 24px;
-   color: white;
-}
-
-.fcol {
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 16.67px;
-   line-height: 24px;
-   color: #2B2B28;
-}
-
-.scol {
-   top: -50px;
-   float: left;
-   margin-left: 435px;
-   padding-right: 168px;
-   margin-top: -110px;
-}
-
-.column2 {
-   position: relative;
-   display: table-cell;
-   text-align: left;
-   width: 33.33%;
-   padding-right: 68px;
-}
-
-.tcol {
-   height: 140px;
-   margin-left: 80.34722222222223vw;
-   margin-top: -130px;
-}
-
-.lastrow {
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 16.67px;
-   line-height: 24px;
-   color: #2B2B28;
-   padding-top: 50px;
-}
-
-ul {
-   list-style-type: none;
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 16.67px;
-   line-height: 24px;
-   color: white;
-   text-decoration-line: underline;
-   padding-top: 5px;
-}
-
-.tcol, img {
-   padding-right: 5px;
-   padding-top: 15px;
-}
-
-.griducando {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   grid-template-rows: 150px 1fr 1fr;
-   grid-template-areas: ". judul judul judul ." ". eve1 eve2 eve3 ." ". eve4 eve5 eve6 .";
-   grid-gap: 30px;
-   justify-content: center;
-   text-align: center;
-}
-
-.griducando .judul {
-   width: 500px;
-}
-
-.gridevents {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   grid-template-rows: 150px 1fr 1fr 100px 400px;
-   grid-template-areas: ". judul judul judul ." ". eve1 eve2 eve3 ." ". eve4 eve5 eve6 ." ". eve7 eve8 . ." ". . . . .";
-   grid-gap: 30px;
-   justify-content: center;
-   text-align: center;
-}
-
-.evee {
-   background: #3D7F47;
-   height: 600px;
-}
-
-.eve1 {
-   justify-self: center;
-   grid-area: eve1;
-}
-
-.eve2 {
-   justify-self: center;
-   grid-area: eve2;
-}
-
-.eve3 {
-   justify-self: center;
-   grid-area: eve3;
-}
-
-.eve4 {
-   justify-self: center;
-   grid-area: eve4;
-}
-
-.eve5 {
-   justify-self: center;
-   grid-area: eve5;
-}
-
-.eve6 {
-   justify-self: center;
-   grid-area: eve6;
-}
-
-.eve7 {
-   justify-self: center;
-   grid-area: eve7;
-}
-
-.eve8 {
-   justify-self: center;
-   grid-area: eve8;
-}
-
-.gridfoot {
-   display: grid;
-   grid-template-columns: 1fr 300px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 200px 1fr;
-   grid-template-rows: 350px 1fr;
-   grid-template-areas: ". foot4 . foot2 . foot6 . foot3 . footspec ." ". foot5 foot5 foot5 foot5 foot5 foot5 foot5 foot5 foot5 . ";
-   background-color: #3D7F47;
-   font-size: large;
-   margin-top: 10%;
-   text-align: left;
-}
-
-p.isifoot1 {
-   width: 500px;
-}
-
-.grididx {
-   padding-top: 25px;
-   display: grid;
-   grid-template-columns: 100px 1fr;
-   grid-template-rows: 300px 30em 150px 1fr;
-   grid-template-areas: ". titleidx " ". typo2" ". judul1" ". isi1";
-   justify-content: left;
-   justify-self: left;
-   text-align: left;
-}
-
-.titleidx {
-   background-image: url(../sendhelp/7sticker-07.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   justify-self: left;
-   width: 819px;
-   height: 450px;
-   grid-area: titleidx;
-   margin-top: 20px;
-}
-
-.typo2 {
-   justify-self: center;
-   grid-area: typo2;
-   margin-left: -25%;
-}
-
-img.typo2 {
-   width: 402px;
-   height: auto;
-}
-
-.bcktop {
-   background-image: url(../sendhelp/home_pic.jpg);
-   background-size: cover;
-   width: auto;
-   height: 1030px;
-}
-
-p.judul1 {
-   position: relative;
-   float: left;
-   justify-self: center;
-   grid-area: judul1;
-}
-
-p.isi1 {
-   position: relative;
-   justify-self: center;
-   grid-area: isi1;
-   width: 582px;
-   bottom: 90%;
-   margin-right: 50%;
-}
-
-.hbutton {
+   .hbutton {
    width: 200px;
    height: 30px;
    background-color: #FFFFFF;
    border-radius: 20px;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    padding-bottom: 10px;
+
 }
 
 .hbutton p {
@@ -1991,11 +1976,31 @@ p.isi1 {
    text-align: center;
 }
 
+
 .textfoot {
+      font-family: bebas-neue-pro-expanded, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16.67px;
+      line-height: auto;
+      color: white;
+}
+
+   .hbutton {
+   width: 200px;
+   height: 30px;
+   background-color: #FFFFFF;
+   border-radius: 20px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   padding-bottom: 10px;
+
+}
+
+.hbutton p {
    font-family: bebas-neue-pro-expanded, sans-serif;
    font-weight: 400;
    font-style: normal;
-   font-size: 16.67px;
-   line-height: auto;
-   color: white;
+   font-size: 13pt;
+   color: #2B2B28;
+   text-align: center;
 }
