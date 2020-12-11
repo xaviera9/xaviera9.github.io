@@ -1067,26 +1067,7 @@ p.isi1 {
    .menu, .footspec {
       display: initial;
    }
-
-   .abt1 {
-         margin-bottom: 100%;
-
-   .
-   }
-}
-
-@media screen and (max-width: 393px) {
-   .nav__links, .cta, .foot1 {
-      display: none;
-   }
-   .menu, .footspec {
-      display: initial;
-   }
-
-   .abt1 {
-         margin-bottom: 300%;
-   }
-}
+=
 
 @media screen and (max-width: 1080px) {
    .nav__links, .cta, .foot1 {
@@ -1095,10 +1076,7 @@ p.isi1 {
    .menu, .footspec {
       display: initial;
    }
-
-   .abt1 {
-         margin-bottom: 30%;
-   }
+=
 }
 
 @media only screen and (min-width: 1081px) {
