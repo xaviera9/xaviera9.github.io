@@ -1,3 +1,8 @@
+@font-face {
+   src: url(../fonts/Bebas\ Neue\ Pro\ Regular.otf);
+   font-family: bebas-neue-pro-expanded;
+}
+
 * {
    margin: 0;
    padding: 0;
@@ -81,7 +86,7 @@ header {
 
 .nav__links a, .cta, .overlay__content a {
    font-family: Helvetica;
-   font-weight: bold;
+   font-weight: 600;
    color: white;
    text-decoration: none;
 }
@@ -239,6 +244,29 @@ header {
 body {
    text-align: center;
    background-color: #2b2b28;
+}
+
+.abtus {
+   font-family: Helvetica;
+   font-style: normal;
+   border: 3px solid white;
+   border-radius: 50px;
+   text-align: center;
+   cursor: pointer;
+   padding: 1px 1px;
+   width: 125px;
+   height: 45px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 50px;
+   color: white;
+   grid-area: abtus;
+   margin-top: 20px;
+}
+
+.abtus a{
+   text-decoration: none;
+   color: white;
 }
 
 .donate {
@@ -668,12 +696,12 @@ body {
 
 .evejudul {
    width: 320px;
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 600;
+   padding-top: 50px;
+   font-family: Bebas Neue Pro;
    font-style: normal;
+   font-weight: 600;
    font-size: 28.8px;
-   line-height: 24px;
-   color: white;
+   line-height: 32px;
    text-align: center;
    color: #FFFFFF;
 }
@@ -681,9 +709,9 @@ body {
 .eveisi {
    width: 303px;
    padding-top: 20px;
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 400;
+   font-family: Bebas Neue Pro;
    font-style: normal;
+   font-weight: 400;
    font-size: 20px;
    line-height: 24px;
    text-align: center;
@@ -800,20 +828,20 @@ body {
 }
 
 .judulfoot {
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 400;
+   font-family: Bebas Neue Pro;
    font-style: normal;
+   font-weight: 600;
    font-size: 20px;
    /* identical to box height */
    color: #FFFFFF;
 }
 
 .isifoot {
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 400;
+   font-family: Bebas Neue Pro;
    font-style: normal;
-   font-size: 16,67px;
-   line-height: 20px;
+   font-weight: 400;
+   font-size: 16.667px;
+   line-height: 29px;
    /* identical to box height */
    text-decoration-line: underline;
    color: #FFFFFF;
@@ -826,11 +854,61 @@ body {
 .grididx {
    display: grid;
    grid-template-columns: 20px 1fr 20px;
-   grid-template-rows: 300px 300px 100px 1fr 1fr ;
-   grid-template-areas:". titleidx ." ". typo2 ." ". judul1 ." ". isi1 ." ". . .";
+   grid-template-rows: 300px 300px 100px 1fr 1fr 1fr ;
+   grid-template-areas:". titleidx ." ". typo2 ." ". judul1 ." ". isi1 ." ". abtus ."". . .";
    justify-content: left;
    justify-self: left;
    text-align: left;
+}
+.bckmid{
+   margin-top: 7em;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 100px 10px 150px ;
+   grid-template-areas:". judulmid judulmid judulmid." ". . . . ." ". photomid1 photomid2 photomid3 .";
+   justify-content: center;
+   justify-self: center;
+   text-align: center;
+   grid-gap: 10px;
+}
+.wwf{
+   width: 69px;
+height: 83px;
+}
+.undp{
+width: 42.12px;
+height: 83.37px;
+}
+.sos{
+   width: 73.06px;
+height: 39.54px;
+
+}
+.judulmid{
+   justify-self: center;
+   grid-area: judulmid;
+}
+.partner{
+   font-family: Bebas Neue Pro;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 41.47px;
+   line-height: 47px;
+   text-align: center;
+   
+   color: #FFFFFF;
+}
+.photomid1{
+   justify-self: center;
+   grid-area: photomid1;
+}
+.photomid2{
+   justify-self: center;
+   grid-area: photomid2;
+}
+.photomid3{
+   justify-self: center;
+   grid-area: photomid3;
 }
 .titleidx {
    background-image: url(../sendhelp/7sticker-07.png);
@@ -855,18 +933,15 @@ img.typo2 {
 }
 
 .judul1{
-  font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 600;
-   font-style: normal;
+   font-family: Bebas Neue Pro;
+   font-size: 44.79px;
+   line-height: 49.97px;
    justify-self: center;
    grid-area: judul1;
    color: white;
 }
-
 .isi1{
-  font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 200;
-   font-style: normal;
+   font-family: Bebas Neue Pro;
    font-size: 20px;
    line-height: 24px;
    justify-self: center;
@@ -890,12 +965,12 @@ p.isi1 {
    grid-area: isi1;
 }
 
-.mainidx {
+.mainidx{
    background-color: #2B2B28;
 }
 
-.abt1{ 
-   padding-top: 0px;
+.abt1{
+   padding-top: 25px;
    display: grid;
    grid-template-columns: 1fr 1fr  1fr;
    grid-template-rows: 1fr;
@@ -903,17 +978,18 @@ p.isi1 {
    justify-content: left;
    justify-self: left;
    text-align: left;
+   margin-bottom: 300%;
 }
-.abt2 {
+.abt2{
    display: grid;
    grid-template-columns: 1fr 1fr  1fr;
-   grid-template-rows: 500px 1fr;
+   grid-template-rows: 300px 1fr;
    grid-template-areas: ". . ."". ivonne .";
    justify-content: left;
    justify-self: left;
    text-align: left;
 }
-.abt3 {
+.abt3{
    display: grid;
    grid-template-columns: 1fr 1fr  1fr;
    grid-template-rows: 100px 1fr;
@@ -959,7 +1035,6 @@ p.isi1 {
 }
 .ivonne img {
    padding-top: 35px;
-   padding-left: 40px;
    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
    justify-self: center;
    grid-area: ivonneimg;
@@ -974,7 +1049,7 @@ p.isi1 {
    color: white;
    text-align: center;
    padding-top: 45px;
-   padding-left: 80px;
+   padding-left: 60px;
    justify-self: center;
    grid-area: ivonneh1;
 }
@@ -987,8 +1062,7 @@ p.isi1 {
    line-height: 31.64px;
    color: #1D4020;
    text-align: center;
-   padding-left: 30px;
-   padding-top: 20px;
+   padding-left: 10px;
    justify-self: center;
    grid-area: ivonneh2;
 }
@@ -1018,8 +1092,7 @@ p.isi1 {
    grid-area: anton;
 }
 .anton img {
-   padding-top: 40px;
-   padding-left: 40px;
+   padding-top: 20px;
    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
 }
 .anton h1 {
@@ -1032,7 +1105,7 @@ p.isi1 {
    color: white;
    text-align: center;
    padding-top: 45px;
-   padding-left: 65px;
+   padding-left: 55px;
 }
 .anton h2 {
    width: 180px;
@@ -1043,8 +1116,7 @@ p.isi1 {
    line-height: 31.64px;
    color: #1D4020;
    text-align: center;
-   padding-left: 40px;
-   padding-top: 20px;
+   padding-left: 25px;
 }
 .anton p {
    width: 52vw;
@@ -1060,17 +1132,12 @@ p.isi1 {
    padding-top: 24px;
 }
 
-
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1081px) {
    .nav__links, .cta, .foot1 {
       display: none;
    }
    .menu, .footspec {
       display: initial;
-   }
-
-   .abt1 {
-         margin-bottom: 30%;
    }
 }
 
@@ -1254,6 +1321,30 @@ p.isi1 {
       float: left;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    }
+
+   .abtus {
+      margin-bottom: 150px;
+      font-family: Helvetica;
+      font-style: normal;
+      border: 3px solid white;
+      border-radius: 50px;
+      cursor: pointer;
+      padding: 9px 9px;
+      width: 200px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 40px;
+      color: white;
+      align-self: center;
+      grid-area: abtus;
+      margin-left: 0px;
+   }
+   
+   .abtus a{
+      text-decoration: none;
+      color: white;
+   }
    .ucan {
       float: left;
       width: 374px;
@@ -1386,10 +1477,6 @@ p.isi1 {
       background-color: #FFFFFF;
       border-radius: 15.5px;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      margin-left: 130px;
-      margin-right: 50px;
-      margin-bottom: 100px;
-      padding-top: 6px;
       padding-right: 8px;
    }
    .events p {
@@ -1437,6 +1524,7 @@ p.isi1 {
       text-align: left;
    }
    .abt2{
+      margin-top: -300%;
       display: grid;
       grid-template-columns: 1fr 1fr  1fr;
       grid-template-rows: 300px 1fr;
@@ -1619,8 +1707,6 @@ p.isi1 {
       justify-self: center;
       grid-area: ewpph;
    }
-
-   }
    .ewptable {
       position: relative;
       left: 8.958333333333334vw;
@@ -1644,24 +1730,6 @@ p.isi1 {
       justify-content: center;
       text-align: center;
    }
-
-     .c1, h1 { 
-      margin-top: 10px;
-      font-family: bebas-neue-pro-expanded, sans-serif;
-      font-weight: 600;
-      font-style: normal;
-      font-size: 24px;
-
-   }
-
-   .c1, p {
-      font-family: bebas-neue-pro-expanded, sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 20px;
-      padding-top: 10px;
-   }
-
    .c1 {
       justify-self: center;
       grid-area: c1;
@@ -1882,8 +1950,8 @@ p.isi1 {
       padding-top: 25px;
       display: grid;
       grid-template-columns: 100px 1fr;
-      grid-template-rows: 300px 30em 150px 1fr;
-      grid-template-areas: ". titleidx " ". typo2" ". judul1" ". isi1";
+      grid-template-rows: 300px 30em 150px 1fr 1fr;
+      grid-template-areas: ". titleidx " ". typo2" ". judul1" ". isi1" ". abtus ";
       justify-content: left;
       justify-self: left;
       text-align: left;
@@ -1896,7 +1964,6 @@ p.isi1 {
       width: 819px;
       height: 450px;
       grid-area: titleidx;
-      margin-top: 20px;
    }
    .typo2 {
       justify-self: center;
@@ -1913,67 +1980,50 @@ p.isi1 {
       width: auto;
       height: 1030px;
    }
-
    p.judul1 {
-      position: relative;
-      float: left;
       justify-self: center;
       grid-area: judul1;
    }
-
    p.isi1 {
-      position: relative;
       justify-self: center;
       grid-area: isi1;
-      width: 582px;
-      bottom: 90%;
-      margin-right: 50%;
    }
+   .bckmid{
+      margin-top: 18em;
+      display: grid;
+      grid-template-columns: 1fr 150px 150px 150px 1fr;
+      grid-template-rows: 1fr 10px 150px ;
+      grid-template-areas:". judulmid judulmid judulmid." ". . . . ." ". photomid1 photomid2 photomid3 .";
+      justify-content: center;
+      justify-self: center;
+      text-align: center;
+      grid-gap: 10px;
+   }
+   .wwf{
+      width: 106.15px;
+      height: 126.84px;
+   }
+   .undp{
+      width: 64.79px;
+      height: 127.41px;
+   }
+   .sos{
+      width: 112.4px;
+height: 60.42px;
+   
+   }
+   .judulmid{
+      justify-self: center;
+      grid-area: judulmid;
+   }
+   .partner{
+      font-family: Bebas Neue Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 41.47px;
+line-height: 47px;
+text-align: center;
 
-   .hbutton {
-   width: 200px;
-   height: 30px;
-   background-color: #FFFFFF;
-   border-radius: 20px;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   padding-bottom: 10px;
-
-}
-
-.hbutton p {
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 13pt;
-   color: #2B2B28;
-   text-align: center;
-}
-
-
-.textfoot {
-      font-family: bebas-neue-pro-expanded, sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 16.67px;
-      line-height: auto;
-      color: white;
-}
-
-   .hbutton {
-   width: 200px;
-   height: 30px;
-   background-color: #FFFFFF;
-   border-radius: 20px;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   padding-bottom: 10px;
-
-}
-
-.hbutton p {
-   font-family: bebas-neue-pro-expanded, sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 13pt;
-   color: #2B2B28;
-   text-align: center;
+color: #FFFFFF;
+   }
 }
