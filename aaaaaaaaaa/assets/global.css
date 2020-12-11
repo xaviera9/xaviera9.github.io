@@ -1078,13 +1078,6 @@ p.isi1 {
    padding-top: 24px;
 }
 
-@media screen and (max-width: 1081px) {
-   .nav__links, .cta, .foot1 {
-      display: none;
-   }
-   .menu, .footspec {
-      display: initial;
-   }
 }
 
 @media only screen and (min-width: 1081px) {
