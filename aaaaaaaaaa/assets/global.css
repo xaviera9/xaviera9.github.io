@@ -1060,33 +1060,6 @@ p.isi1 {
    padding-top: 24px;
 }
 
-@media screen and (max-width: 1081px) {
-   .nav__links, .cta, .foot1 {
-      display: none;
-   }
-   .menu, .footspec {
-      display: initial;
-   }
-
-   .abt1 {
-         margin-bottom: 100%;
-
-   .
-   }
-}
-
-@media screen and (max-width: 393px) {
-   .nav__links, .cta, .foot1 {
-      display: none;
-   }
-   .menu, .footspec {
-      display: initial;
-   }
-
-   .abt1 {
-         margin-bottom: 300%;
-   }
-}
 
 @media screen and (max-width: 1080px) {
    .nav__links, .cta, .foot1 {
